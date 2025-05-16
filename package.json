@@ -4,6 +4,7 @@
   "main": "src/index.ts",
   "scripts": {
     "dev": "ts-node src/index.ts",
+    "build": "tsc --noEmit",
     "start": "ts-node src/index.ts",
     "register": "ts-node src/deployCommands.ts"
   },
