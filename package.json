@@ -1,20 +1,19 @@
 {
   "name": "discord-ticket-bot",
   "version": "1.0.0",
-  "main": "dist/index.js",
+  "main": "src/index.ts",
   "scripts": {
     "dev": "ts-node src/index.ts",
-    "build": "tsc",
-    "start": "node dist/index.js",
+    "start": "ts-node src/index.ts",
     "register": "ts-node src/deployCommands.ts"
   },
   "dependencies": {
     "discord.js": "^14.19.3",
-    "dotenv": "^16.0.0"
+    "dotenv": "^16.0.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^5.0.0"
   },
   "devDependencies": {
-    "typescript": "^5.0.0",
-    "ts-node": "^10.0.0",
     "@types/node": "^18.0.0"
   }
 }
